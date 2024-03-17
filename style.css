@@ -1,0 +1,56 @@
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #424141;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+.topnav {
+    display: flex;
+    justify-content: flex-start; /* Align items to the start */
+}
+
+.topnav input[type="text"] {
+    margin-left: 10px; /* Adjust the space between the Library link and the search bar */
+    width: 400px; /* Set the width of the search bar */
+    margin-left: 10px; /* Adjust the space between the Library link and the search bar */
+    border-radius: 15px; /* Set rounded edges */
+    padding: 10px; /* Add padding to improve appearance */
+}
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #111211;
+    color: white;
+  }
+  .moreofwhatyoulike {
+    display:flex;
+    flex-direction: in-line;
+    justify-content:space-around
+
+  }
+
+  .recentlyplayed {
+    display:flex;
+    flex-direction: in-line;
+    justify-content:space-around
+
+  }
+.col-4{
+    background-color: #e3e2e2;
+}
